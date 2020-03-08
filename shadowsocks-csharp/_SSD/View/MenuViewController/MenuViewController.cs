@@ -25,7 +25,7 @@ namespace Shadowsocks.View {
 
         private void _InitOther() {
             ConfigurationCurrent = controller.GetCurrentConfiguration();
-            ConfigurationCurrent.ResetRegularDetectRunning();
+            //ConfigurationCurrent.ResetRegularDetectRunning();
             contextMenu1.Popup += PreloadMenu;
         }
 
